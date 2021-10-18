@@ -9,3 +9,60 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+header.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    background-color: white;
+}
+
+li{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 2em;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.overview-hero{
+    padding: 40px 0 40px 0;
+}
+
+.overview-hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overview-heor-image{
+    margin-right: 60px;
+}
+
+.overview-hero-image img{
+    width: 200px;
+}
+.learn-about h2{
+    font-size: 24px;
+    
+}
+.learn-about .container .cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.card{
+    border: 1px solid #efe8f0;
+    margin: 0 23px 0 0;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 4px 4px rgb(180, 176, 176);
+}
+.card img{
+    width: 100%;
+    height: 200px;
+}
