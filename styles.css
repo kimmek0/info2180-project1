@@ -128,10 +128,10 @@ article{
 }
 
 article img{
-    border-radius: 75%;
-    height: 200px;
+    border-radius: 50%;
+    height: 150px;
     width:auto;
-    margin-right: 26px;
+    margin-right: 25px;
 }
 
 .cta{
